@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OrderPaper xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xsi:noNamespaceSchemaLocation="OrderPaperSchema.xsd">
+    <!--  xmlns:xhtml="http://www.w3.org/1999/xhtml"-->
+    <PaperTitle><?oxy_comment_start author="remar" timestamp="20241219T125544+0000" comment="Current example has just BT today all in one &lt;OrderPaper&gt; - separate out BT &amp; FB sections into different &lt;OrderPaper&gt; elements with relevant attributes?
+
+Also need to retain some useful metadata e.g. date, version etc."?>Order<?oxy_comment_end?>
+        Paper: Business Today &amp; Future Business</PaperTitle>
+    <PaperDate>Monday 9 December 2024</PaperDate>
+    <Section>
+        <h1Summary>Summary Agenda: Chamber</h1Summary>
+        <DayItem>
+            <MotionText>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <table id="table001" class="Front-Page-Table">
+                        <colgroup>
+                            <col width="24%"/>
+                            <col width="76%"/>
+                        </colgroup>
+                        <tbody>
+                            <tr>
+                                <td class="Alline-Right">
+                                    <p class="paraSummaryAgendaItemTiming">2.30pm</p>
+                                </td>
+                                <td>
+                                    <p>Prayers</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="Alline-Right">
+                                    <p class="paraSummaryAgendaItemTiming">Afterwards</p>
+                                </td>
+                                <td>
+                                    <p>Oral Questions: Education</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="Alline-Right">
+                                    <p class="paraSummaryAgendaItemTiming">3.30pm</p>
+                                </td>
+                                <td>
+                                    <p>Urgent Questions, Ministerial Statements (if any)</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="Alline-Right">
+                                    <p class="paraSummaryAgendaItemTiming">No debate</p>
+                                </td>
+                                <td>
+                                    <p>Presentation of Bills</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="Alline-Right">Until 10.00pm</td>
+                                <td>
+                                    <p><b>Terrorism (Protection of Premises) Bill: Remaining
+                                            Stages</b></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="Alline-Right">No debate after 10.00pm</td>
+                                <td>
+                                    <p>Motions to nominate members of Select Committees: Backbench
+                                        Business; Culture, Media and Sport; Science, Innovation and
+                                        Technology; Treasury</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="Alline-Right">
+                                    <p class="paraSummaryAgendaItemTiming">No debate</p>
+                                </td>
+                                <td>Presentation of Public Petitions</td>
+                            </tr>
+                            <tr>
+                                <td class="Alline-Right">Until 10.30pm or for half an hour</td>
+                                <td>Adjournment Debate: Government policy on waste and recycling
+                                    (Matt Vickers)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </body>
+            </MotionText>
+        </DayItem>
+        <h1Summary>Westminster Hall</h1Summary>
+        <DayItem>
+            <MotionText>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <table id="table002" class="Front-Page-Table">
+                        <colgroup>
+                            <col width="24%"/>
+                            <col width="76%"/>
+                        </colgroup>
+                        <tbody>
+                            <tr>
+                                <td class="Alline-Right">
+                                    <p class="paraSummaryAgendaItemTiming">4.30pm</p>
+                                </td>
+                                <td>
+                                    <p>Debate on e-petitions 639319 and 700013 relating to the sale
+                                        and use of fireworks</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </body>
+            </MotionText>
+        </DayItem>
+    </Section>
+    <Section house="Commons" type="Effectives" date="2024-12-18">
+        <h1>Business Today: Chamber</h1>
+        <DayItem DayItemId="58655" TabledOrder="1">
+            <debateInfo>2.30pm Prayers</debateInfo>
+            <debateInfo>Followed by</debateInfo>
+        </DayItem>
+        <Section>
+            <h2>Questions</h2>
+            <OralQuestionsGroup>
+                <h3>Oral Questions to the Secretary of State for Education</h3>
+                <OralQn Type="O" UIN="901664">
+                    <Num>1</Num>
+                    <Member mnis_id="5332">
+                        <Fnames>Lincoln</Fnames>
+                        <Sname>Jopp</Sname>
+                        <Constit>(Spelthorne)</Constit>
+                    </Member>
+                    <QnText PrintText="Y">What plans she has to reform the provision of sixth-form education.</QnText>
+                    <UIN>901664</UIN>
+                </OralQn>
+                <OralQn Type="O" UIN="901665">
+                    <Num>2</Num>
+                    <Member mnis_id="5338">
+                        <Fnames>Terry</Fnames>
+                        <Sname>Jermy</Sname>
+                        <Constit>(South West Norfolk)</Constit>
+                    </Member>
+                    <QnText PrintText="Y">What assessment she has made of the potential impact of introducing free primary school breakfast clubs on children.</QnText>
+                    <UIN>901665</UIN>
+                </OralQn>
+                <OralQn Type="O" UIN="901666">
+                    <Num>3</Num>
+                    <Member mnis_id="5294">
+                        <Fnames>Amanda</Fnames>
+                        <Sname>Martin</Sname>
+                        <Constit>(Portsmouth North)</Constit>
+                    </Member>
+                    <QnText PrintText="Y">What steps she is taking to improve teacher recruitment and retention in Portsmouth North constituency.</QnText>
+                    <UIN>901666</UIN>
+                </OralQn>
+                <OralQn Type="O" UIN="901667">
+                    <Num>4</Num>
+                    <Member mnis_id="5130">
+                        <Fnames>Matt</Fnames>
+                        <Sname>Turmaine</Sname>
+                        <Constit>(Watford)</Constit>
+                    </Member>
+                    <QnText PrintText="Y">What steps she is taking to increase the availability of breakfast clubs in primary school.</QnText>
+                    <UIN>901667</UIN>
+                </OralQn>
+                <OralQn Type="O" UIN="901668">
+                    <Num>5</Num>
+                    <Member mnis_id="5106">
+                        <Fnames>David</Fnames>
+                        <Sname>Burton-Sampson</Sname>
+                        <Constit>(Southend West and Leigh)</Constit>
+                    </Member>
+                    <QnText PrintText="Y">What steps she is taking to increase the availability of breakfast clubs in primary school.</QnText>
+                    <UIN>901668</UIN>
+                </OralQn>
+            </OralQuestionsGroup>
+            <OralQuestionsGroup>
+                <Time>At 3.15pm</Time>
+                <h3>Topical Questions to the Secretary of State for Education</h3>
+                <OralQn Type="T">
+                    <Num>T1</Num>
+                    <Member mnis_id="4084">
+                        <Fnames>Esther</Fnames>
+                        <Sname>McVey</Sname>
+                        <Constit>(Tatton)</Constit>
+                    </Member>
+                    <QnText PrintText="Y">If she will make a statement on her departmental responsibilities.</QnText>
+                    <UIN>901704</UIN>
+                </OralQn>
+                <OralQn Type="T">
+                    <Num>T2</Num>
+                    <Member mnis_id="4860">
+                        <Title>Dr</Title>
+                        <Fnames>Kieran</Fnames>
+                        <Sname>Mullan</Sname>
+                        <Constit>(Bexhill and Battle)</Constit>
+                    </Member>
+                    <QnText PrintText="N"/>
+                    <UIN>901705</UIN>
+                </OralQn>
+                <OralQn Type="T">
+                    <Num>T3</Num>
+                    <Member mnis_id="4869">
+                        <Fnames>Nadia</Fnames>
+                        <Sname>Whittome</Sname>
+                        <Constit>(Nottingham East)</Constit>
+                    </Member>
+                    <QnText PrintText="N"/>
+                    <UIN>901706</UIN>
+                </OralQn>
+                <OralQn Type="T">
+                    <Num>T4</Num>
+                    <Member mnis_id="4654">
+                        <Fnames>Matt</Fnames>
+                        <Sname>Rodda</Sname>
+                        <Constit>(Reading Central)</Constit>
+                    </Member>
+                    <QnText PrintText="N"/>
+                    <UIN>901707</UIN>
+                </OralQn>
+                <OralQn Type="T">
+                    <Num>T5</Num>
+                    <Member mnis_id="4918">
+                        <Fnames>Sarah</Fnames>
+                        <Sname>Green</Sname>
+                        <Constit>(Chesham and Amersham)</Constit>
+                    </Member>
+                    <QnText PrintText="N"/>
+                    <UIN>901708</UIN>
+                </OralQn>
+                <OralQn Type="T">
+                    <Num>T6</Num>
+                    <Member mnis_id="5071">
+                        <Fnames>Paul</Fnames>
+                        <Sname>Waugh</Sname>
+                        <Constit>(Rochdale)</Constit>
+                    </Member>
+                    <QnText PrintText="N"/>
+                    <UIN>901709</UIN>
+                </OralQn>
+                <OralQn Type="T">
+                    <Num>T7</Num>
+                    <Member mnis_id="4616">
+                        <Fnames>Rosie</Fnames>
+                        <Sname>Duffield</Sname>
+                        <Constit>(Canterbury)</Constit>
+                    </Member>
+                    <QnText PrintText="N"/>
+                    <UIN>901710</UIN>
+                </OralQn>
+                <OralQn Type="T">
+                    <Num>T8</Num>
+                    <Member mnis_id="5228">
+                        <Fnames>Maya</Fnames>
+                        <Sname>Ellis</Sname>
+                        <Constit>(Ribble Valley)</Constit>
+                    </Member>
+                    <QnText PrintText="N"/>
+                    <UIN>901711</UIN>
+                </OralQn>
+                <OralQn Type="T">
+                    <Num>T9</Num>
+                    <Member mnis_id="5222">
+                        <Fnames>Tom</Fnames>
+                        <Sname>Rutland</Sname>
+                        <Constit>(East Worthing and Shoreham)</Constit>
+                    </Member>
+                    <QnText PrintText="N"/>
+                    <UIN>901712</UIN>
+                </OralQn>
+                <OralQn Type="T">
+                    <Num>T10</Num>
+                    <Member mnis_id="5350">
+                        <Fnames>Ben</Fnames>
+                        <Sname>Maguire</Sname>
+                        <Constit>(North Cornwall)</Constit>
+                    </Member>
+                    <QnText PrintText="N"/>
+                    <UIN>901713</UIN>
+                </OralQn>
+            </OralQuestionsGroup>
+        </Section>
+        <Section>
+            <h2>Urgent Questions and Statements</h2>
+            <DayItem DayItemId="58656" TabledOrder="5">
+                <debateInfo>3.30pm</debateInfo>
+                <h4 styleInfo="bullet">Urgent Question:</h4>
+                <MotionText>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>To ask the Secretary of State for Housing, Communities and Local
+                            Government to make a statement on the future of planning committees
+                            (David Simmonds)</p>
+                    </body>
+                </MotionText>
+            </DayItem>
+            <DayItem>
+                <h4 styleInfo="bullet">Ministerial Statements, including on:</h4>
+                <MotionText>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>Developments in Syria (Secretary of State for Foreign, Commonwealth and
+                            Development Affairs)</p>
+                    </body>
+                </MotionText>
+            </DayItem>
+        </Section>
+        <Section>
+            <h2>Presentation of Bills</h2>
+            <DayItem DayItemId="58666" TabledOrder="6" type="Motion">
+                <debateInfo>No debate </debateInfo>
+                <StandingOrderReference sor="57">(Standing Order No. 57)</StandingOrderReference>
+                <h4 styleInfo="bullet">Domestic Abuse (Aggravated Offences)</h4>
+                <Sponsors>
+                    <Member mnis_id="5086">
+                        <Fnames>Josh</Fnames>
+                        <Sname>Babarinde</Sname>
+                    </Member>
+                </Sponsors>
+                <MotionText>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>Bill to create certain domestic abuse aggravated offences; and for
+                            connected purposes.</p>
+                    </body>
+                </MotionText>
+            </DayItem>
+        </Section>
+        <Section>
+            <h2>Business of the day</h2>
+            <DayItem type="Motion">
+                <h4 styleInfo="numbered-arabic">Terrorism (Protection of Premises) Bill: Remaining Stages</h4>
+                <debateInfo>Until 10.00pm (Order of 14 October 2024)</debateInfo>
+                <MotionText>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>As amended in Public Bill Committee, to be considered.</p>
+                    </body>
+                </MotionText>
+                <Notes>For amendments, see separate paper (also available on the publications webpage for the Bill).</Notes>
+                <Notes>Proceedings on Consideration shall (so far as not previously concluded) be brought to a conclusion at 9.00pm. Proceedings on Third Reading shall (so far as not previously concluded) be brought to a conclusion at 10.00pm.</Notes>
+                <Notes>King’s Consent to be signified on Third Reading.</Notes>
+            </DayItem>
+            <DayItem type="Motion">
+                <h4 styleInfo="numbered-arabic">Backbench Business Committee</h4>
+                <debateInfo>No debate after 10.00pm</debateInfo>
+                <StandingOrderReference>(Standing Order No. 9(6))</StandingOrderReference>
+                <Sponsors>
+                    <Member mnis_id="1548">
+                        <Fnames>Jessica</Fnames>
+                        <Sname>Morden</Sname>
+                    </Member>
+                </Sponsors>
+                <?oxy_comment_start author="remar" timestamp="20241219T120249+0000" comment="We need a mechanism e.g. &lt;SponsorNotes&gt; to add text e.g. &quot;, on behalf of the Committee of Selection&quot;."?>
+                <MotionText>
+                    <?oxy_comment_end?>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>That Wendy Morton be discharged from the Backbench Business Committee and
+                            Martin Vickers be added.</p>
+                    </body>
+                </MotionText>
+            </DayItem>
+            <DayItem type="Motion">
+                <h4 styleInfo="numbered-arabic">Culture, Media and Sport Committee</h4>
+                <debateInfo>No debate after 10.00pm</debateInfo>
+                <StandingOrderReference>(Standing Order No. 9(6))</StandingOrderReference>
+                <Sponsors>
+                    <Member mnis_id="1548">
+                        <Fnames>Jessica</Fnames>
+                        <Sname>Morden</Sname>
+                    </Member>
+                </Sponsors>
+                <?oxy_comment_start author="remar" timestamp="20241219T120249+0000" comment="We need a mechanism to add e.g. <SponsorNotes> text e.g. &quot;, on behalf of the Committee of Selection&quot;."?>
+                <MotionText>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>That Mims Davies be discharged from the Culture, Media and Sport
+                            Committee and Damian Hinds be added.</p>
+                    </body>
+                </MotionText>
+            </DayItem>
+            <DayItem type="Motion">
+                <h4 styleInfo="numbered-arabic">Science, Innovation and Technology Committee</h4>
+                <debateInfo>No debate after 10.00pm</debateInfo>
+                <StandingOrderReference>(Standing Order No. 9(6))</StandingOrderReference>
+                <Sponsors>
+                    <Member mnis_id="1548">
+                        <Fnames>Jessica</Fnames>
+                        <Sname>Morden</Sname>
+                    </Member>
+                </Sponsors>
+                <MotionText>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>That Josh Simons be discharged from the Science, Innovation and
+                            Technology Committee and Jon Pearce be added.</p>
+                    </body>
+                </MotionText>
+            </DayItem>
+            <DayItem type="Motion">
+                <h4 styleInfo="numbered-arabic">Treasury Committee</h4>
+                <debateInfo>No debate after 10.00pm</debateInfo>
+                <StandingOrderReference>(Standing Order No. 9(6))</StandingOrderReference>
+                <Sponsors>
+                    <Member mnis_id="1548">
+                        <Fnames>Jessica</Fnames>
+                        <Sname>Morden</Sname>
+                    </Member>
+                </Sponsors>
+                <MotionText>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>That Lucy Rigby be discharged from the Treasury Committee and John Grady
+                            be added.</p>
+                    </body>
+                </MotionText>
+            </DayItem>
+        </Section>
+        <Section>
+            <h2>Presentation of public petitions</h2>
+            <DayItem DayItemId="18252" TabledOrder="6" type="Motion">
+                <debateInfo>No debate or decision</debateInfo>
+                <StandingOrderReference sor="57">(Standing Order No. 153)</StandingOrderReference>
+                <MotionText>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>Pimping websites and paying for sex:</p>
+                    </body>
+                </MotionText>
+                <Sponsors>
+                    <Member mnis_id="4981">
+                        <Fnames>Ashley</Fnames>
+                        <Sname>Dalton</Sname>
+                    </Member>
+                </Sponsors>
+            </DayItem>
+        </Section>
+        <Section>
+            <h2>Adjournment Debate</h2>
+            <DayItem DayItemId="18253" TabledOrder="6" type="Motion">
+                <debateInfo>Until 10.30pm or for half an hour (whichever is later)</debateInfo>
+                <StandingOrderReference sor="57">(Standing Order No. 9(7))</StandingOrderReference>
+                <MotionText>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>Government policy on waste and recycling:</p>
+                    </body>
+                </MotionText>
+                <Sponsors>
+                    <Member mnis_id="3027">
+                        <Fnames>Matt</Fnames>
+                        <Sname>Vickers</Sname>
+                    </Member>
+                </Sponsors>
+            </DayItem>
+        </Section>
+    </Section>
+    <Section house="Commons">
+        <h1>Business Today: Westminster Hall</h1>
+        <h2>Statements to be made today</h2>
+        <DayItem>
+            <?oxy_comment_start author="remar" timestamp="20241219T121857+0000" comment="Need element/mechanism to handle Ministerial titles"?>
+            <Presenter>
+                <Member mnis_id="4119">
+                    <Fnames>Jonathan</Fnames>
+                    <Sname>Reynolds</Sname>
+                </Member>
+            </Presenter>
+            <?oxy_comment_end?>
+            <MotionText>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>1. Business Growth Service</p>
+                </body>
+            </MotionText>
+        </DayItem>
+        <DayItem>
+            <Presenter>
+                <Member mnis_id="1510">
+                    <Fnames>Edward</Fnames>
+                    <Sname>Miliband</Sname>
+                </Member>
+            </Presenter>
+            <MotionText>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>2. Bringing forward Hydrogen to Power — to support a clean and secure power
+                        system</p>
+                </body>
+            </MotionText>
+        </DayItem>
+        <DayItem>
+            <Presenter>
+                <Member mnis_id="4268">
+                    <Title>Mr</Title>
+                    <Fnames>Steve</Fnames>
+                    <Sname>Reed</Sname>
+                </Member>
+            </Presenter>
+            <MotionText>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>3. Avian Influenza Outbreak Response</p>
+                </body>
+            </MotionText>
+        </DayItem>
+        <DayItem>
+            <Presenter>
+                <Member mnis_id="420">
+                    <Fnames>Yvette</Fnames>
+                    <Sname>Cooper</Sname>
+                </Member>
+            </Presenter>
+            <MotionText>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>4. International Anti-Corruption Day</p>
+                </body>
+            </MotionText>
+        </DayItem>
+        <SectionNote>Texts of Written Statements are available from the Vote Office and on the internet at https://questions-statements.parliament.uk/ .</SectionNote>
+    </Section>
+    <Section>
+        <h1>Committees Meeting Today</h1>
+        <SectionNote>Broadcasts of proceedings can be found at https://www.parliamentlive.tv/Commons</SectionNote>
+        <Section>
+            <h2>Select Committees</h2>
+            <DayItem>
+                <h4 styleInfo="">Foreign Affairs Committee</h4>
+                <debateInfo>The Macmillan Room, Portcullis House</debateInfo>
+                <debateInfo>1.00pm (private)</debateInfo>
+            </DayItem>
+            <DayItem>
+                <h4 styleInfo="">Public Accounts Committee</h4>
+                <Notes>Subject: Asylum accommodation: Home Office acquisition of former HMP Northeye</Notes>
+                <debateInfo>The Grimond Room, Portcullis House</debateInfo>
+                <debateInfo>3.00pm (private), 3.30pm (public)</debateInfo>
+                <MotionText>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>Witnesses:</p>
+                        <table id="table003" class="Front-Page-Table">
+                            <colgroup>
+                                <col width="24%"/>
+                                <col width="76%"/>
+                            </colgroup>
+                            <tbody>
+                                <tr>
+                                    <td class="Alline-Right">
+                                        <p class="paraSummaryAgendaItemTiming">3.30pm</p>
+                                    </td>
+                                    <td>
+                                        <p><b>Sir Matthew Rycroft KCMG CBE</b> (Permanent Secratery
+                                            at Home Office)</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="Alline-Right"/>
+                                    <td>
+                                        <p><b>Joanna Rowland</b> (Director General, Customer
+                                            Services Group at Home Office)</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="Alline-Right"/>
+                                    <td>
+                                        <p><b>Belinda Mather</b> (Director for Non-Detained
+                                            Accommodation at Home Office)</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </body>
+                </MotionText>
+            </DayItem>
+        </Section>
+        <Section>
+            <h2>Joint Committees</h2>
+            <DayItem>
+                <h4 styleInfo="">Restoration and Renewal CLient Board</h4>
+                <debateInfo>Room 4A</debateInfo>
+                <debateInfo>4.30pm (private)</debateInfo>
+            </DayItem>
+        </Section>
+        <Section>
+            <h2>Public Bill Committees</h2>
+            <DayItem>
+                <h4 styleInfo="">Armed Forces Commissioner Bill: Programming sub committee</h4>
+                <debateInfo>Room 10</debateInfo>
+                <debateInfo>7.00pm (private)</debateInfo>
+            </DayItem>
+        </Section>
+        <Section>
+            <h2>Delgated Legislation Committees</h2>
+            <DayItem>
+                <h4 styleInfo="">First Delegated Legislation Committee</h4>
+                <MotionText>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>To consider the draft Financial Services and Markets Act 2023 (Addition
+                            of Relevant Enactments) Regulations 2024</p>
+                    </body>
+                </MotionText>
+                <debateInfo>Room 9</debateInfo>
+                <debateInfo>4.30pm (public)</debateInfo>
+            </DayItem>
+            <DayItem>
+                <h4 styleInfo="">Second Delegated Legislation Committee</h4>
+                <MotionText>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>To consider the draft Building Societies Act 1986 (Modifications) Order
+                            2024</p>
+                    </body>
+                </MotionText>
+                <debateInfo>Room 11</debateInfo>
+                <debateInfo>6.00pm (public)</debateInfo>
+            </DayItem>
+            <DayItem>
+                <h4 styleInfo="">Third Delegated Legislation Committee</h4>
+                <MotionText>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>To consider the draft Double Taxation Relief and International Tax
+                            Enforcement (Ecuador) Order 2024</p>
+                    </body>
+                </MotionText>
+                <debateInfo>Room 12</debateInfo>
+                <debateInfo>6.00pm (public)</debateInfo>
+            </DayItem>
+        </Section>
+    </Section>
+    <Section>
+        <h1>Committee Reports Published Today</h1>
+        <DayItem>
+            <h4 styleInfo="">The Speaker’s Committee on the Electoral Commission</h4>
+            <MotionText>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>1st Report: Work of the Committee in 2023-24 HC 498</p>
+                </body>
+            </MotionText>
+            <debateInfo>Time of publication: 11.00am</debateInfo>
+        </DayItem>
+    </Section>
+    <Section type="announcements">
+        <h1>Announcements</h1>
+        <Section>
+            <h2>Forthcoming end of day adjournment debates</h2>
+            <DayItem>
+                <MotionText>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>Applications for 30-minute end of day adjournment debates should be made
+                            to the Table Office by 7.00pm or rise of the House, whichever is the
+                            earlier, on the Wednesdays listed below. Members can submit their
+                            application via MemberHub. The ballot takes place the day after the
+                            deadline. Members who are successful will be contacted by the Speaker’s
+                            Office.</p>
+                        <p><b>Tuesday 17 to Thursday 19 December (deadline Wednesday 11 December
+                                7.00pm or the rise of the House, whichever is earlier)</b></p>
+                        <p><b>Monday 6 to Monday 13 January 2025 (deadline Wednesday 18 December
+                                7.00pm or the rise of the House, whichever is earlier)</b></p>
+                        <p><b>Tuesday 14 to Monday 20 January 2025 (deadline Wednesday 8 January
+                                2025 7.00pm or the rise of the House, whichever is earlier)</b></p>
+                    </body>
+                </MotionText>
+            </DayItem>
+        </Section>
+        <Section>
+            <h2>Future departments answering in Westminster Hall</h2>
+            <DayItem>
+                <MotionText>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>The rota for answering Departments is listed below. Applications for 90,
+                            60 and 30-minute debates should be made to the Table Office by 10.00pm
+                            or the rise of the House, whichever is the earlier, on the Mondays
+                            listed below. Members can submit their application via MemberHub. The
+                            ballot takes place the day after the deadline. Members who are
+                            successful will be contacted by the Speaker’s Office.</p>
+                        <p><b>Tuesday 17 and Wednesday 18 December (deadline Monday 9 December
+                                10.00pm or the rise of the House, whichever is earlier)</b></p>
+                        <p>The following Departments will answer:</p>
+                        <p>Business and Trade; Culture, Media and Sport; Defence; Education;
+                            Foreign, Commonwealth and Development; Health and Social Care; Home
+                            Office; Justice; Science, Innovation and Technology; Transport</p>
+                        <p><b>Tuesday 7 and Wednesday 8 January 2025 (deadline Monday 16 December
+                                10.00pm or the rise of the House, whichever is earlier)</b></p>
+                        <p>The following Departments will answer:</p>
+                        <p>Attorney General; Cabinet Office; Energy Security and Net Zero;
+                            Environment, Food and Rural Affairs; Housing, Communities and Local
+                            Government; Northern Ireland; Scotland; Treasury; Wales; Women and
+                            Equalities; Work and Pensions</p>
+                    </body>
+                </MotionText>
+            </DayItem>
+        </Section>
+    </Section>
+    <Section>
+        <h1>Further information</h1>
+        <h2>MPs' Guide to Procedure</h2>
+        <SectionNote>The MPs’ Guide to Procedure is available on the Parliamentary website and also in hard copy from the Vote Office</SectionNote>
+        <h2>Business of the Day</h2>
+        <SectionNote>Documents and reports relating to the business being held in the Chamber are available on the Commons Business Briefings webpage: www.parliament.uk/business/publications/research/commons-business-briefings/</SectionNote>
+        <h2>Written Statements</h2>
+        <SectionNote>Text of today’s Written Statements: https://questions-statements.parliament.uk/</SectionNote>
+        <h2>Select Committees</h2>
+        <SectionNote>Select Committees Webpage: https://committees.parliament.uk/</SectionNote>
+        <h2>Standing Orders Relating to Public Business</h2>
+        <SectionNote>Text of Standing Orders relating to public business: https://publications.parliament.uk/pa/cm5901/cmstords/so_829_05072024/so-2024i.pdf</SectionNote>
+        <h2>Chamber Engagement</h2>
+        <SectionNote>Select Committees Webpage: https://committees.parliament.uk/</SectionNote>
+    </Section>
+</OrderPaper>
