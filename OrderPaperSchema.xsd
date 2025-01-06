@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    elementFormDefault="qualified"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
+    xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    vc:minVersion="1.1">
+    <xs:annotation>
+        <xs:documentation xml:lang="en-GB">
+            Schema for House of Commons Order Paper 2019
+        </xs:documentation>
+    </xs:annotation>
+    
+    <!-- Import XInclude namespace -->
+    <xs:import namespace="http://www.w3.org/2001/XInclude"
+        schemaLocation="XInclude.xsd"/>
+    
+    <!-- Import XML namespace (for @xml:base) -->
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace"
+        schemaLocation="xml.xsd"/>
+    
+    <!-- Importing XHTML namespace -->
+    <xs:import namespace="http://www.w3.org/1999/xhtml"
+        schemaLocation="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/>
+    
+    <!-- 
+    Here, you define your 'Html' type the same as they define
+    the content of <body> element.
+
+    Notice that 'xhtml' namespace prefix must be used with each reference
+    to a W3C XHTML component.
+  -->
+    <xs:complexType name="Html">
+        <xs:complexContent>
+            <xs:extension base="xhtml:Block">
+                <xs:attributeGroup ref="xhtml:attrs"/>
+                <xs:attribute name="onload" type="xhtml:Script"/>
+                <xs:attribute name="onunload" type="xhtml:Script"/>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    
+    <!-- Now, your custom 'Html' element has the same content model
+       as the standard XHTML <body> element! -->
+    <xs:element name="Html" type="Html" xml:base="http://www.w3.org/1999/xhtml"/>
+    
+<!--    <xs:element ref="xhtml:body"/>-->
+    
+    <!--    <xs:element name="MotionText" type="Html"/>-->
+    
+    <xs:element name="MotionText">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="xhtml:body"/>
+<!--                <xs:element ref="Html"/>-->
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:attribute name="DayItemId" type="xs:integer"/>
+    <xs:attribute name="TabledOrder"/>
+    <xs:attribute name="mnis_id" type="xs:positiveInteger"/>
+    <xs:attribute name="date" type="xs:date" />
+    <xs:attribute name="type" type="xs:string"/>
+    <xs:attribute name="styleInfo"/>
+    <xs:attribute name="sor"/> <!-- Standing Order Reference Number -->
+    <xs:attribute name="house" />
+    <xs:attribute name="HasRelevantInterest" type="xs:boolean"/>
+    <xs:attribute name="BusinessItemType" type="xs:string"/>
+    <xs:attribute name="PrintText"/>
+
+    <xs:complexType name="heading">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute ref="styleInfo"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    
+    <xs:element name="PaperTitle"/>
+    <xs:element name="PaperDate"/>
+    <xs:element name="h1Summary" type="heading"/>
+    <xs:element name="h1" type="heading" />
+    <xs:element name="h2" type="heading" />
+    <!-- I think we want h3 headings for thoes inbetween headings like the headings
+        in future business for chamber or westminster hall -->
+    <xs:element name="h3" type="heading" />
+ 
+    <xs:element name="h4">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute ref="styleInfo" use="required"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+
+
+    <xs:element name="UIN" type="xs:positiveInteger"/>
+    <xs:element name="Time" type="xs:string"/>
+
+    <xs:element name="OralQn">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Num" type="xs:string"/>
+                <xs:element ref="Member"/>
+                <xs:element ref="QnText"/>
+                <xs:element ref="UIN"/>
+            </xs:sequence>
+            <xs:attribute name="Type"/>
+            <xs:attribute name="UIN"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="QnText">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute ref="PrintText"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Member">
+        <xs:complexType>
+            <xs:choice>
+                <xs:sequence>
+                    <xs:element name="Title" minOccurs="0" type="xs:string"/>
+                    <xs:element name="Fnames" type="xs:string"/>
+                    <xs:element name="Sname" type="xs:string"/>
+                    <xs:element name="Constit" minOccurs="0" type="xs:string"/>
+                </xs:sequence>
+                <xs:element name="LayingMinisterName" />
+            </xs:choice>
+
+            <xs:attribute ref="mnis_id" use="required"/>
+            <xs:attribute ref="HasRelevantInterest"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="OralQuestionsGroup">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Time" minOccurs="0"/>
+                <xs:element ref="h3" minOccurs="0"/>
+                <xs:element ref="h4" minOccurs="0"/>
+                <xs:element ref="OralQn" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Section">
+        <xs:complexType>
+            <xs:choice maxOccurs="unbounded">
+                <xs:element ref="h1Summary" minOccurs="0"/>
+                <xs:element ref="h1" minOccurs="0"/>
+                <xs:element ref="h2" minOccurs="0"/>
+                <xs:element ref="SectionNote" minOccurs="0"/>
+                <xs:element ref="h3" minOccurs="0"/>
+                <xs:element ref="DayItem" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="OralQuestionsGroup" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="Section" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:choice >
+            <xs:attribute ref="house"/>
+            <xs:attribute ref="type"/>
+            <xs:attribute ref="date"/>
+            <xs:attribute ref="xml:base"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Sponsors">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Member" minOccurs="1" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+        <xs:unique name="unique-mnis-id">
+            <!-- Sponsors elements can have one or more unique Member elements. 
+            Uniqueness is tested for via the @mnis_id value -->
+            <xs:selector xpath="Member"/>
+            <xs:field xpath="@mnis_id"/>
+        </xs:unique>
+    </xs:element>
+
+    <xs:element name="Presenter">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Member" minOccurs="1" maxOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="DayItem">
+        <xs:complexType>
+            <xs:all>
+                <xs:element ref="debateInfo" minOccurs="0" maxOccurs="unbounded" />
+                <xs:element ref="StandingOrderReference" minOccurs="0"  maxOccurs="unbounded" />
+                <xs:element ref="h4" minOccurs="0" maxOccurs="unbounded" />
+                <xs:element ref="Sponsors" minOccurs="0" maxOccurs="1"/>
+                <xs:element ref="Presenter" minOccurs="0" maxOccurs="1" />
+                <xs:element ref="MotionText" minOccurs="0" maxOccurs="1" />
+                <xs:element ref="Notes" minOccurs="0" maxOccurs="unbounded" />
+                <xs:element ref="RelevantDocuments" minOccurs="0" maxOccurs="unbounded" />
+            </xs:all>
+            <!--<xs:choice maxOccurs="unbounded">
+                <xs:element ref="debateInfo" maxOccurs="unbounded" />
+                <xs:element ref="StandingOrderReference" />
+                <xs:element ref="h4" />
+                <xs:element ref="Sponsors" />
+                <xs:element ref="Presenter" />
+                <xs:element ref="MotionText" />
+                <xs:element ref="Notes" />
+                <xs:element ref="RelevantDocuments" />
+            </xs:choice>-->
+            <xs:attribute ref="DayItemId"/>
+            <xs:attribute ref="TabledOrder"/>
+            <xs:attribute ref="type"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="StandingOrderReference">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute ref="sor" />
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType> 
+        
+    </xs:element>
+    <!--  Perhaps we should rename `debateInfo` to `Info`. -->
+    <xs:element name="debateInfo">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute ref="styleInfo" />
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+
+    
+    <xs:element name="Notes" type="xs:string" />
+    <xs:element name="SectionNote" type="xs:string" />
+    <xs:element name="RelevantDocuments" type="xs:string" />
+    <xs:element name="EditorNote" type="xs:string"/>
+
+    <xs:element name="OrderPaper">
+        <xs:complexType>
+            <!--<xs:sequence>
+                <xs:element ref="Section" maxOccurs="unbounded"/>
+            </xs:sequence>-->
+            <xs:all>
+                <xs:element ref="PaperTitle" maxOccurs="1" minOccurs="1"/>
+                <xs:element ref="PaperDate" maxOccurs="1" minOccurs="1"/>
+                <xs:element ref="Section" maxOccurs="unbounded"/>
+                <xs:element ref="xi:include" maxOccurs="unbounded" minOccurs="0"/>
+                <xs:element ref="EditorNote" maxOccurs="unbounded" minOccurs="0"/>
+            </xs:all>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
