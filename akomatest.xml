@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17">
+	<doc name="">
+		<meta>
+			<identification source="">
+				<FRBRWork>
+					<FRBRthis value=""/>
+					<FRBRuri value=""/>
+					<FRBRdate date="2000-01-01" name=""/>
+					<FRBRauthor href=""/>
+					<FRBRcountry value="UK"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value=""/>
+					<FRBRuri value=""/>
+					<FRBRdate date="2000-01-01" name=""/>
+					<FRBRauthor href=""/>
+					<FRBRlanguage language=""/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value=""/>
+					<FRBRuri value=""/>
+					<FRBRdate date="2000-01-01" name=""/>
+					<FRBRauthor href=""/>
+				</FRBRManifestation>
+			</identification>
+		</meta>
+		<mainBody>
+			<section>
+				<chapter>
+					<title>
+						<content>
+							<p>Chapter 1</p>
+						</content>
+					</title>
+					<paragraph>
+						<content>
+							<ul>
+								<li>Contents item 1</li>
+								<li>Contents item 2</li>
+							</ul>
+						</content>
+					</paragraph>
+				</chapter>
+				<title>
+					<heading>Introduction</heading>
+					<content>
+						<block name="">Here we are testing an Akoma Ntoso (LegalDocML) template file.</block>
+					</content>
+				</title>
+			</section>
+		</mainBody>
+	</doc>
+</akomaNtoso>
