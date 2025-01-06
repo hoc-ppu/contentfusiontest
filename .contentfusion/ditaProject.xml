@@ -1,6 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<project xmlns="https://www.dita-ot.org/project">
-    <context id="PMupdmMIJubPPFX" name="test">
-        <input href="../testhtml.xhtml"/>
-    </context>
-</project>
+<project xmlns="https://www.dita-ot.org/project"/>
