@@ -5,13 +5,13 @@
     <Section>
         <h1>Committee Reports Published Today</h1>
         <DayItem>
-            <h4 styleInfo="">The Speaker’s Committee on the Electoral Commission</h4>
+            <h4 styleInfo="">Committee Name</h4>
             <MotionText>
                 <body xmlns="http://www.w3.org/1999/xhtml">
-                    <p>1st Report: Work of the Committee in 2023-24 HC 498</p>
+                    <p>Publication Name</p>
                 </body>
             </MotionText>
-            <debateInfo>Time of publication: 11.00am</debateInfo>
+            <debateInfo>Time of publication: tt.ttxm</debateInfo>
         </DayItem>
     </Section>
 </OrderPaper>
